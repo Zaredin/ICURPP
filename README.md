@@ -9,8 +9,8 @@ The name reflects the interactive nature of the program and acknowledges that it
   * Reducing Redundancy: 
     I'm considering using a single function to handle capitalization variations (upper, lower, mixed case) instead of separate functions for flipping and capitalization.
 
-  * Enhance Efficiency: 
-    For very large profiles, generating all combinations might become slow. I might xplore techniques like pruning unlikely combinations or using more efficient data structures for storing potential passwords.
+  * Enhancing Efficiency: 
+    For very large profiles, generating all combinations might become slow. I might explore techniques like pruning unlikely combinations or using more efficient data structures for storing potential passwords.
 
   * Thread-Safety: 
     I'm planning to scale the program to handle larger profiles in the future, and considering adding thread-safety mechanisms when modifying the combinations set concurrently.
